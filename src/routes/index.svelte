@@ -1,0 +1,128 @@
+<script type="ts">
+</script>
+
+<style>
+</style>
+
+<svelte:head>
+  <meta name="description" content="Comedy troupe" />
+  <meta name="author" content="The Mooks" />
+  <meta name="keywords" content="Comedy, Music, Sketch" />
+  <meta name="robots" content="index, follow" />
+  <title>The Mooks</title>
+</svelte:head>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+  <!--<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" >
+  <span class="navbar-toggler-icon"></span>
+  </button>-->
+  <a class="navbar-brand text-hide" href="index.html"> <img src="images/the-mooks-logo.jpg" width="250rem" height="" class="" alt="" /> The Mooks </a>
+  <!--<div id="navbar" class="collapse navbar-collapse">
+  <ul class="navbar-nav">
+  <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+</div><!--/.nav-collapse -->
+</nav>
+<div class="intro d-flex justify-content-center align-items-center">
+  <div class="quote w-75">
+    <p class="word">mooks</p>
+    <p class="type">noun</p>
+    <p class="definition">
+      Hordes of standard-issue, disposable bad guys whom The Hero mows down with impunity. Deadly, competent, loyal, abundant... pick any two.<span
+        class="citation">
+        (tvtropes.org)</span>
+    </p>
+  </div>
+</div>
+<!-- /.intro -->
+<div class="content-section-1 pad-section d-flex flex-column align-items-center px-3">
+  <h2>Our Show</h2>
+  <div class="card-deck">
+    <div class="poster card pt-3"><img class="img-fluid" src="images/mooks-bitnc.jpg" alt="Back in the Naughty Chair" /></div>
+    <div class="blurb card">
+      <div class="card-body">
+        <p>Following their 2017 hit show, Boganocracy, local comedy troupe The Mooks are Back in the Naughty Chair for 2019.</p>
+        <p>
+          The Mooks, consisting of Chris Cole, Greg Tantala and Lara Robertson, first met back in the time of knights and dames during Australia’s Tony Abbot
+          years. Before that time, Chris had slummed around Melbourne bars doing various musical-comedy shows, drawing the attention of Greg who quickly bonded
+          with Chris about their shared love of low-brow satire. Both soon began performing comedy and met Lara who agreed to perform with them after only seven
+          months of begging, and thus The Mooks were born.
+        </p>
+        <p>
+          The Mooks’ first Melbourne International Comedy Festival show was praised as an hilarious satire which showcased not only their joke writing chops,
+          but also their flair for musical comedy. Their latest show, Back in the Naughty Chair, brings together their love of absurd comedy and silly songs,
+          where they take on everything from the art of seduction in a social media landscape, being judged by Netflix’s algorithm and when you can take an '80s
+          obsession a bit too far.
+        </p>
+      </div>
+    </div>
+    <div class="info card">
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item p-0">
+            <h4>Venue:</h4>
+            <p><a href="http://www.redbetty.com.au" target="_blank">Red Betty</a></p>
+            <p>
+              <a
+                href="https://www.google.com.au/maps/place/Red+Betty/@-37.7560066,144.9635621,15z/data=!4m5!3m4!1s0x0:0x597db8e5833ab226!8m2!3d-37.7560066!4d144.9635621"
+                target="_blank">Rear of 859a Sydney Road (entry via Cozens st and Houdini Lane)</a>
+            </p>
+            <p>Venue is 18+</p>
+          </li>
+          <li class="list-group-item p-0">
+            <h4>Dates:</h4>
+            <p class="m-0">April</p>
+            <p class="m-0">Thur 4 - Fri 5,</p>
+            <p class="m-0">Tue 9 - Thur 11,</p>
+            <p class="">Tue 16 - Thur 18</p>
+          </li>
+          <li class="list-group-item p-0">
+            <h4>Time:</h4>
+            <p>8pm</p>
+          </li>
+          <li class="list-group-item p-0">
+            <h4>Tickets:</h4>
+            <p>$15 - 25</p>
+          </li>
+          <li class="list-group-item p-0">
+            <h4>Bookings:</h4>
+            <p><a href="https://www.comedyfestival.com.au/2019/shows/the-mooks-back-to-the-naughty-chair" target="_blank">www.comedyfestival.com.au</a></p>
+            <p><a href="https://www.trybooking.com/445931" target="_blank">www.trybooking.com</a></p>
+            <p>or at the venue</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.content-section-1 -->
+<div class="content-section-2 pad-section d-flex flex-column align-items-center">
+  <h2>Contact</h2>
+  <div class="contact d-flex flex-column align-items-center pt-3">
+    <p>Chris Cole</p>
+    <p>
+      <i class="fas fa-paper-plane fa-2x mr-2" /><a target="_blank" href="mailto:themookscomedy@gmail.com?subject=web%20enquiry">themookscomedy@gmail.com</a>
+    </p>
+    <p class="mt-2">
+      <a class="mr-2" target="_blank" href="https://www.facebook.com/TheMooksComedy"> <i class="fab fa-facebook fa-2x mr-2" />Facebook</a>
+      <a class="mr-2" target="_blank" href="https://www.instagram.com/themookscomedy"> <i class="fab fa-instagram fa-2x mr-2" />Instagram</a>
+      <a target="_blank" href="https://www.twitter.com/MooksComedy"> <i class="fab fa-twitter-square fa-2x mr-2" />Twitter</a>
+    </p>
+  </div>
+</div>
+<!-- /.content-section-2 -->
+<!-- Footer -->
+<footer class="pt-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <p class="copy text-left">&copy; The Mooks 2017</p>
+      </div>
+      <div class="col-6">
+        <p class="text-right"><a target="_blank" href="http://www.tykto.com">Website by Tykto</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
