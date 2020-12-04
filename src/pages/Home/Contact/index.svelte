@@ -1,9 +1,18 @@
-<script>
-</script>
+<style>
+  .t-section {
+    background: #cccccc;
+    min-height: 500px;
+  }
 
-<div class="content-section-2 pad-section d-flex flex-column align-items-center">
+  .t-contact p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+
+<div class="t-section t-pad-section d-flex flex-column align-items-center">
   <h2>Contact</h2>
-  <div class="contact d-flex flex-column align-items-center pt-3">
+  <div class="t-contact d-flex flex-column align-items-center pt-3">
     <p>Chris Cole</p>
     <p>
       <i class="fas fa-paper-plane fa-2x mr-2" /><a target="_blank" href="mailto:themookscomedy@gmail.com?subject=web%20enquiry">themookscomedy@gmail.com</a>

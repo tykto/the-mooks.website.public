@@ -1,11 +1,47 @@
-<script>
+<script type="ts">
+  import posterUrl from './poster.jpg';
 </script>
 
-<div class="content-section-1 pad-section d-flex flex-column align-items-center px-3">
+<style>
+  .t-section {
+    background: grey;
+  }
+
+  .t-poster {
+    background: transparent;
+    border: none;
+  }
+
+  .t-blurb,
+  .t-info {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+  }
+
+  @media (min-width: 1200px) {
+    .card-deck {
+      width: 75%;
+    }
+  }
+</style>
+
+<div class="t-section t-pad-section d-flex flex-column align-items-center px-3">
   <h2>Our Show</h2>
   <div class="card-deck">
-    <div class="poster card pt-3"><img class="img-fluid" src="images/mooks-bitnc.jpg" alt="Back in the Naughty Chair" /></div>
-    <div class="blurb card">
+    <div class="t-poster card pt-3"><img class="img-fluid" src={posterUrl} alt="Back in the Naughty Chair" /></div>
+    <div class="t-blurb card">
       <div class="card-body">
         <p>Following their 2017 hit show, Boganocracy, local comedy troupe The Mooks are Back in the Naughty Chair for 2019.</p>
         <p>
@@ -22,7 +58,7 @@
         </p>
       </div>
     </div>
-    <div class="info card">
+    <div class="t-info card">
       <div class="card-body">
         <ul class="list-group">
           <li class="list-group-item p-0">
